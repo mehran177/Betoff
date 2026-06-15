@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE users SET passwordHash = 'f6449dacf0b99394dbd61754e5d0df5c4fc673a5795c054b40b0584d81b8137f:4ccbd97758cf383dcca02a4cf9ceff10fdd87d1ab66d1bc2dc4232f423f2ccfded0f416a4eb622cb4545ec47bfad89aed96fe235711523d31bfa1eb626c340b0' WHERE email = 'admin@betoff.com';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 1o1tTmuSgCdQj1W.root --database gKFJ4qfi3Q6VtqWYhBzoga --execute UPDATE users SET passwordHash = 'f6449dacf0b99394dbd61754e5d0df5c4fc673a5795c054b40b0584d81b8137f:4ccbd97758cf383dcca02a4cf9ceff10fdd87d1ab66d1bc2dc4232f423f2ccfded0f416a4eb622cb4545ec47bfad89aed96fe235711523d31bfa1eb626c340b0' WHERE email = 'admin@betoff.com';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 365
+}
