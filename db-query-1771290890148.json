@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO users (email, passwordHash, name, loginMethod, role, isEmailVerified, createdAt, updatedAt, lastSignedIn) VALUES ('admin@betoff.com', 'test_hash_123', 'Admin User', 'email', 'admin', true, NOW(), NOW(), NOW()) ON DUPLICATE KEY UPDATE role = 'admin';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 1o1tTmuSgCdQj1W.root --database gKFJ4qfi3Q6VtqWYhBzoga --execute INSERT INTO users (email, passwordHash, name, loginMethod, role, isEmailVerified, createdAt, updatedAt, lastSignedIn) VALUES ('admin@betoff.com', 'test_hash_123', 'Admin User', 'email', 'admin', true, NOW(), NOW(), NOW()) ON DUPLICATE KEY UPDATE role = 'admin';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 398
+}
